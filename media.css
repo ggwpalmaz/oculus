@@ -1,0 +1,383 @@
+/* Mobile portrait and landscape (up to 576px) */
+@media (max-width: 576px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+  }
+  .nav__card {
+    display: none;
+  }
+  .nav__list {
+    display: none;
+  }
+  .checky {
+    display: block;
+    z-index: 1;
+  }
+  #checkbox:checked ~ .nav__list {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    padding: 100px;
+    background-color: rgb(255, 246, 248);
+  }
+  #checkbox:checked ~ .checky span:nth-child(2) {
+    display: none;
+  }
+  #checkbox:checked ~ .checky span:nth-child(1) {
+    transform: rotate(45deg) translateX(5px);
+  }
+  #checkbox:checked ~ .checky span:nth-child(3) {
+    transform: rotate(-45deg) translateX(5px);
+  }
+  .meta {
+    padding-left: 0;
+    padding-right: 0;
+    background-position: center;
+  }
+  .btn {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .product__content {
+    flex-direction: column;
+  }
+  .product__inner {
+    width: auto;
+  }
+  .product__img {
+    width: 350px;
+  }
+  .games__content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .games__items {
+    flex-direction: column;
+  }
+  .box__main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  .box__VR {
+    grid-column: 1;
+  }
+  .box__img-VR {
+    width: 350px;
+  }
+  .box__include {
+    grid-row: 3/4;
+  }
+
+  .metaverse__content {
+    background-position: center;
+  }
+
+  .access__items {
+    flex-direction: column;
+  }
+  .news__email-text {
+    width: 350px;
+  }
+  .news__mail {
+    left: 0;
+    bottom: -50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+  }
+  .nav__card {
+    display: none;
+  }
+  .nav__list {
+    display: none;
+  }
+  .checky {
+    display: block;
+    z-index: 1;
+  }
+  #checkbox:checked ~ .nav__list {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    padding: 100px;
+    background-color: rgb(255, 246, 248);
+  }
+  #checkbox:checked ~ .checky span:nth-child(2) {
+    display: none;
+  }
+  #checkbox:checked ~ .checky span:nth-child(1) {
+    transform: rotate(45deg) translateX(5px);
+  }
+  #checkbox:checked ~ .checky span:nth-child(3) {
+    transform: rotate(-45deg) translateX(5px);
+  }
+  .meta {
+    padding-left: 0;
+    padding-right: 0;
+    background-position: center;
+  }
+  .btn {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .product__content {
+    flex-direction: column;
+  }
+  .product__inner {
+    width: auto;
+  }
+  .product__img {
+    width: 350px;
+  }
+  .games__content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .games__items {
+    flex-direction: column;
+  }
+  .box__main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  .box__VR {
+    grid-column: 1;
+  }
+  .box__img-VR {
+    width: 350px;
+  }
+  .box__include {
+    grid-row: 3/4;
+  }
+
+  .metaverse__content {
+    background-position: center;
+  }
+
+  .access__items {
+    flex-direction: column;
+  }
+  .news__email-text {
+    width: 350px;
+  }
+  .news__mail {
+    left: 0;
+    bottom: -50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+  }
+  .nav__card {
+    display: none;
+  }
+  .nav__list {
+    display: none;
+  }
+  .checky {
+    display: block;
+    z-index: 1;
+  }
+  #checkbox:checked ~ .nav__list {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    padding: 100px;
+    background-color: rgb(255, 246, 248);
+  }
+  #checkbox:checked ~ .checky span:nth-child(2) {
+    display: none;
+  }
+  #checkbox:checked ~ .checky span:nth-child(1) {
+    transform: rotate(45deg) translateX(5px);
+  }
+  #checkbox:checked ~ .checky span:nth-child(3) {
+    transform: rotate(-45deg) translateX(5px);
+  }
+  .meta {
+    padding-left: 0;
+    padding-right: 0;
+    background-position: center;
+  }
+  .btn {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .product__content {
+    flex-direction: column;
+  }
+  .product__inner {
+    width: auto;
+  }
+  .product__img {
+    width: 350px;
+  }
+  .games__content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .games__items {
+    flex-direction: column;
+  }
+  .box__main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  .box__VR {
+    grid-column: 1;
+  }
+  .box__img-VR {
+    width: 350px;
+  }
+  .box__include {
+    grid-row: 3/4;
+  }
+
+  .metaverse__content {
+    background-position: center;
+  }
+
+  .access__items {
+    flex-direction: column;
+  }
+  .news__email-text {
+    width: 350px;
+  }
+  .news__mail {
+    left: 0;
+    bottom: -50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+  }
+  .nav__card {
+    display: none;
+  }
+  .nav__list {
+    display: none;
+  }
+  .checky {
+    display: block;
+    z-index: 1;
+  }
+  #checkbox:checked ~ .nav__list {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    padding: 100px;
+    background-color: rgb(255, 246, 248);
+  }
+  #checkbox:checked ~ .checky span:nth-child(2) {
+    display: none;
+  }
+  #checkbox:checked ~ .checky span:nth-child(1) {
+    transform: rotate(45deg) translateX(5px);
+  }
+  #checkbox:checked ~ .checky span:nth-child(3) {
+    transform: rotate(-45deg) translateX(5px);
+  }
+  .meta {
+    padding-left: 0;
+    padding-right: 0;
+    background-position: center;
+  }
+  .btn {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+  .product__content {
+  }
+  .product__inner {
+    width: auto;
+  }
+  .product__img {
+    width: 450px;
+  }
+  .games__content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .games__items {
+    flex-direction: column;
+  }
+  .box__main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  .box__VR {
+    grid-column: 1;
+  }
+  .box__img-VR {
+    width: 350px;
+  }
+  .box__include {
+    grid-row: 3/4;
+  }
+
+  .metaverse__content {
+    background-position: center;
+  }
+
+  .access__items {
+    flex-direction: column;
+  }
+  .news__email-text {
+    width: 350px;
+  }
+  .news__mail {
+    left: 0;
+    bottom: -50px;
+  }
+}
